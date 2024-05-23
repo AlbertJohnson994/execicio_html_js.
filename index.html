@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML com JS</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Universidade Federal De Ouro Preto</h1>
+        <h2>Formulario De Aluno</h2>
+        <form id="form-de-aluno"></form>
+        <form>
+            <input type="text" id="Nome-completo" require placeholder="Nome completo" />
+            <input type="text" id="e-mail" require placeholder="e-Mail" />
+            <input type="number" id="matri" require placeholder="Matricula" />
+            <input type="number" id="cpf" require placeholder="CPF" />
+            <input type="text" id="NomeDeCurso" require placeholder="Nome do Curso" />
+            <textarea placeholder="Descricao (opcional)" id="Descricao"></textarea>
+            <button id="btn-enviar" type="submit">ENVIAR</button>
+        </form>
+        <p class="valid-Pop">
+            O formulario foi preenchido corretamente.
+        </p>
+
+    </div>
+    <script src="./main.js"></script>
+    
+</body>
+</html>
